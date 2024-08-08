@@ -42,7 +42,7 @@
 #define TEMP_FLAGS_END   FLAG_TEMP_1F
 #define NUM_TEMP_FLAGS   (TEMP_FLAGS_END - TEMP_FLAGS_START + 1)
 
-#define FLAG_UNUSED_0x020    0x20 // Unused Flag
+#define FLAG_QUEST_MENU_ACTIVE    0x20 // Unused Flag
 #define FLAG_UNUSED_0x021    0x21 // Unused Flag
 #define FLAG_UNUSED_0x022    0x22 // Unused Flag
 #define FLAG_UNUSED_0x023    0x23 // Unused Flag
@@ -1346,7 +1346,7 @@
 #define FLAG_SYS_POKEMON_GET                         (SYSTEM_FLAGS + 0x0) // FLAG_0x860
 #define FLAG_SYS_POKEDEX_GET                         (SYSTEM_FLAGS + 0x1)
 #define FLAG_SYS_POKENAV_GET                         (SYSTEM_FLAGS + 0x2)
-#define FLAG_UNUSED_0x863                            (SYSTEM_FLAGS + 0x3) // Unused Flag
+#define FLAG_SYS_QUEST_MENU_GET                      (SYSTEM_FLAGS + 0x3) // add QUESTS to start menu
 #define FLAG_SYS_GAME_CLEAR                          (SYSTEM_FLAGS + 0x4)
 #define FLAG_SYS_CHAT_USED                           (SYSTEM_FLAGS + 0x5)
 #define FLAG_UNLOCKED_TRENDY_SAYINGS                 (SYSTEM_FLAGS + 0x6)
